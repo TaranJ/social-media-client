@@ -1,15 +1,15 @@
-import { login } from "./login";
-import { save } from "../../storage/index";
+import { login } from "../js/api/auth/login";
+import { save } from "../js/storage";
 
-jest.mock("../../storage/index", () => ({
+jest.mock("../js/storage", () => ({
   save: jest.fn(),
 }));
 
-jest.mock("../constants.js", () => ({
+jest.mock("../js/api/constants.js", () => ({
   apiPath: "http://localhost/api",
 }));
 
-jest.mock("../headers.js", () => ({
+jest.mock("../js/api/headers.js", () => ({
   headers: () => ({
     "Content-Type": "application/json",
   }),
