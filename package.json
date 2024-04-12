@@ -11,8 +11,7 @@
     "lint-fix": "eslint src/**/*.js --cache --fix",
     "prepare": "husky install",
     "test": "npm run test-unit",
-    "test-unit": "jest",
-    "print-config": "eslint --print-config src/test/baseline.test.js"
+    "test-unit": "jest"
   },
   "keywords": [],
   "author": "Noroff",
