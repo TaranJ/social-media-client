@@ -39,6 +39,10 @@ npm install
 
 Tests are run automatically when a pull request is created.
 
+[![Automated Unit Testing](https://github.com/TaranJ/social-media-client/actions/workflows/unit-test.yml/badge.svg)](https://github.com/TaranJ/social-media-client/actions/workflows/unit-test.yml)
+
+[![Automated E2E Testing](https://github.com/TaranJ/social-media-client/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/TaranJ/social-media-client/actions/workflows/e2e-test.yml)
+
 ### Unit-testing
 
 Jest-tests are found inside src/js/test. To run unit-tests with jest, use the
