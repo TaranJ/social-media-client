@@ -59,6 +59,9 @@ npm run test-e2e
 
 Open Cypress in Electron and run the tests in the browser.
 
+_N.B. You might need to edit the cypress.config.js file for the login test to
+work. Insert valid login credentials in the environment variables_
+
 ## Author
 
 - Taran Johannessen
