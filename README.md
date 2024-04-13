@@ -37,7 +37,7 @@ npm install
 
 ## Testing
 
-Tests are run automatically when
+Tests are run automatically when a pull request is created.
 
 ### Unit-testing
 
