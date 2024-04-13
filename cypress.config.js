@@ -2,7 +2,6 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-     
     setupNodeEvents(on, config) {
       on("task", {
         log(message) {
@@ -14,7 +13,7 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
   },
   env: {
-    VALID_USERNAME: "blake@noroff.no",
-    VALID_PASSWORD: "blakedåder",
+    VALID_USERNAME: "exampletest@noroff.no",
+    VALID_PASSWORD: "secrettest",
   },
 });

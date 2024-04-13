@@ -50,7 +50,7 @@ npm run test
 
 ### E2E-testing
 
-Cypress-tests are found inside cypress/e2e/testing To E2E-tests with Cypress,
+Cypress-tests are found inside cypress/e2e/testing. To E2E-tests with Cypress,
 use the following terminal command:
 
 ```bash
@@ -59,8 +59,8 @@ npm run test-e2e
 
 Open Cypress in Electron and run the tests in the browser.
 
-_N.B. You might need to edit the cypress.config.js file for the login test to
-work. Insert valid login credentials in the environment variables_
+_N.B. You might need to edit the cypress.config.js file for the tests to work.
+Insert valid login credentials in the environment variables_
 
 ## Author
 
