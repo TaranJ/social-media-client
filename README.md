@@ -39,6 +39,8 @@ npm install
 
 Tests are run automatically when a pull request is created.
 
+### Test status
+
 [![Automated Unit Testing](https://github.com/TaranJ/social-media-client/actions/workflows/unit-test.yml/badge.svg)](https://github.com/TaranJ/social-media-client/actions/workflows/unit-test.yml)
 
 [![Automated E2E Testing](https://github.com/TaranJ/social-media-client/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/TaranJ/social-media-client/actions/workflows/e2e-test.yml)
