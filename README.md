@@ -37,7 +37,7 @@ npm install
 
 ## Testing
 
-Tests are run
+Tests are run automatically when
 
 ### Unit-testing
 
@@ -57,8 +57,7 @@ use the following terminal command:
 npm run test-e2e
 ```
 
-For E2E-testing, you also need to create a _cypress.env.json_ with valid login
-credentials. See the cypress.example.env.json file in root folder for template.
+Open Cypress in Electron and run the tests in the browser.
 
 ## Author
 
