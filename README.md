@@ -3,7 +3,7 @@
 ## Description
 
 This is a school assignment for the subject "Workflow". The goal for the
-assigment was to improve the quality of a package by establishing helpful
+assignment was to improve the quality of a package by establishing helpful
 workflows that make the development process more efficient.
 
 ## Built With
@@ -56,7 +56,7 @@ npm run test
 
 ### E2E-testing
 
-Cypress-tests are found inside cypress/e2e/testing. To E2E-tests with Cypress,
+Cypress-tests are found inside cypress/e2e/testing. To E2E-test with Cypress,
 use the following terminal command:
 
 ```bash
