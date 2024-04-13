@@ -59,6 +59,12 @@ npm run test-e2e
 
 Open Cypress in Electron and run the tests in the browser.
 
+Optionally, you can run the tests in the terminal with this command:
+
+```bash
+npm run test-cypress
+```
+
 _N.B. You might need to edit the cypress.config.js file for the tests to work.
 Insert valid login credentials in the environment variables_
 
