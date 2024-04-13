@@ -10,23 +10,30 @@ workflows that make the development process more efficient.
 
 - HTML
 - SCSS/SASS
-- Bootstrap v5.3.2
+- Bootstrap
 - JavaScript
 - Prettier
 - ESlint
 - Husky
-- Jest
 - Babel
+- Jest
 - Cypress
 
 ## Getting started
 
 ### Installations
 
-To get started, use the following terminal command that installs all necessary
-dependencies.
+To get started, clone the repo and open in a code editor.
 
-- npm install
+```bash
+git clone [https://github.com/TaranJ/social-media-client.git]
+```
+
+Use the following terminal command to install all necessary dependencies:
+
+```bash
+npm install
+```
 
 ## Testing
 
@@ -34,17 +41,25 @@ Tests are run
 
 ### Unit-testing
 
-Jest-tests are found inside src/js/test To run unit-tests with jest, use the
+Jest-tests are found inside src/js/test. To run unit-tests with jest, use the
 following terminal command:
 
-- npm run test
+```bash
+npm run test
+```
 
 ### E2E-testing
 
 Cypress-tests are found inside cypress/e2e/testing To E2E-tests with Cypress,
 use the following terminal command:
 
-- npm run test-e2e
+```bash
+npm run test-e2e
+```
 
 For E2E-testing, you also need to create a _cypress.env.json_ with valid login
 credentials. See the cypress.example.env.json file in root folder for template.
+
+## Author
+
+- Taran Johannessen
